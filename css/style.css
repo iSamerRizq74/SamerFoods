@@ -1,0 +1,357 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Lato';
+    
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    float: left;
+    height: 100px;
+    margin-top: 30px;
+    margin-left:100px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    font-size: 1.6rem;
+    margin-right: 20px;
+   margin-top: 60px;
+   font-weight: bold;
+   letter-spacing: 2px;
+
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav a:hover{
+    text-decoration: underline;
+    color: orange;
+    letter-spacing: 2px;
+}
+
+
+.main-nav li{
+display: inline-block;
+margin-right: 10px ;
+
+}
+.hero-box{
+    position: absolute;
+    top: 40%;
+}
+h1{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 150%;
+    margin-bottom: 30px;
+
+}
+.btn , button{
+    border: solid orange 1px;
+    margin-right: 15px;
+    color: orange;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.btn:hover , button{
+    background-color: orange;
+    color: white;
+}
+section{
+    padding: 40px 0px;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 100px;
+    color: orange;
+    border: solid orange 4px;
+    border-radius: 2px;
+    margin: 10px auto;
+    
+}
+.feautures-desc{
+    width: 60%;
+    margin: 10px auto;
+
+}
+
+.box i{
+color: orange;
+margin-left: 50px;
+margin-bottom: 10px;
+
+}
+.box h3{
+    margin-bottom: 10px;
+    
+    }
+    .box p{
+        line-height: 150%;
+        }
+    
+        .meal{
+            padding: 0px;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .meal img{
+            width: 100%;
+            opacity: .6;
+            transition: 1s;
+            transform: scale(1.1);
+        }
+
+        .meal img:hover{
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        #works{
+            background-color: #eee;
+        }
+
+        .left-work{
+            text-align: right;
+            padding-right: 3%;
+        }
+
+        .app-iPhone{
+            width: 40%;
+        }
+
+        .right-work{
+            text-align: left;
+            padding-left: 3%;
+            padding-top: 70px;
+        }
+
+        .step{
+            margin-bottom: 30px;
+        }
+
+        .step span{
+            margin-right: 25px;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: solid 2px orange;
+            padding: 12px;
+            border-radius: 50%;
+            text-align: center;
+            color: orange;
+            font-weight: bold;
+            
+        }
+        .brands{
+            margin-top: 50px;
+        }
+        .brands a{
+            margin-right: 15px;
+        }
+        .brands img{
+            height: 50px;
+        }
+        .city img{
+            width: 100%;
+            margin-bottom: 10px;
+
+        }
+
+        .city h3{
+            text-align: center;
+            margin-bottom: 10px;
+  
+        }
+        .city-info{
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .city-info i{
+            color: orange;
+            margin-right: 20px;
+        }
+        #testemonials{
+            color: white;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+        }
+
+        #testemonials i{
+            color: white;
+            font-size: 50px;
+            margin-bottom: 20px;
+            margin-left: -50px;
+            transform: rotate(180deg);
+        }       
+        
+        #testemonials p{
+            margin-bottom: 20px;
+            line-height: 150%;
+        }
+
+        #testemonials img{
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+
+        .section-plans{
+            background-color: #f4f4f4;
+
+        }
+
+        .plan-box{
+            background-color: #fff;
+            border-radius: 5px;
+            width: 90%;
+            margin-left: 5%;
+            box-shadow: 0 2px 2px #efefef;
+        }
+
+        .plan-box div{
+            padding: 15px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .plan-box div:first-child{
+            background-color: #fcfcfc;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .plan-box div:last-child{
+            text-align: center;
+            border: 0;
+        }
+
+        .plan-price{
+            font-size: 300%;
+            margin-bottom: 10px;
+            font-weight: 100;
+            color: orange;
+        }
+
+        .plan-price span{
+            font-size: 30%;
+            font-weight: 300;
+        }
+
+        .plan-price-meal{
+            font-size: 80%;
+        }
+
+        .plan-box ul{
+            list-style: none;
+        }
+
+        .plan-box ul li{
+            padding: 5px 0;
+        }
+
+        label{
+            font-size: 18px;
+            color:orange;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+            input[type=text] ,input[type=email] , select , textarea {
+                width: 100%;
+                padding: 7px;
+                border: solid #ccc 2px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+
+            }
+            input[type=checkbox]{
+                margin-bottom: 10px;
+                margin-right: 10px;
+            }
+            button{
+                background-color: orange;
+                color: white;
+            }
+
+            button:hover{
+                background-color: transparent;
+                color: orange;
+            }
+
+            footer{
+                background-color: #333;
+                padding: 30px 0px;
+
+            }
+
+            footer p{
+               margin-top: 20px;
+               color: #888;
+               text-align: center;                
+            }
+
+            .footer-nav , .social-nav{
+                float: left;
+                list-style: none;  
+            }
+
+            .social-nav{
+                float: right;
+            }
+
+            .footer-nav li , .social-nav li{
+               display: inline-block;
+               margin-right: 10px;
+            }
+            .footer-nav li a , .social-nav li a{
+            color: #888;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px; 
+            }
+            
+            .footer-nav li a:hover , .footer-nav li a:hover{
+                text-decoration: underline;
+                color: orange;
+            }
+            
+
+        }
